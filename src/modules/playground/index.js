@@ -181,10 +181,8 @@ const Playground = () => {
   const toggleDropDown = (type) => {
     if (type === "grid") {
       setGridDropdown(!gridDropdown);
-      setCellDropdown(false);
     } else {
       setCellDropdown(!cellDropDown);
-      setGridDropdown(false);
     }
   };
 
@@ -261,7 +259,7 @@ const Playground = () => {
               text="Cell size"
             />
             {cellDropDown && (
-              <div className="absolute bottom-45 bg-grey">
+              <div className="absolute bottom-45 left-210 bg-grey">
                 {cellOptions.map((element, index) => {
                   return (
                     <div

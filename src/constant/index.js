@@ -1,5 +1,5 @@
 export const initialData = {
-  speed: 100,
+  speed: 800,
   rows: 30,
   cols: 50,
   gridFull: Array(30)
