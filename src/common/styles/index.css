@@ -1,0 +1,198 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #00000010;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.b-1-black {
+  border: 1px solid black;
+}
+
+.bg-grey {
+  background-color: lightgray;
+}
+.bg-green-10 {
+  background-color: green;
+}
+
+.bg-red-10 {
+  background-color: red;
+}
+.bg-blue-10 {
+  background-color: blue;
+}
+.bg-lightBlue-10 {
+  background-color: cadetblue;
+}
+
+.bg-yellow-10 {
+  background-color: yellow;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.fixed {
+  position: fixed;
+}
+.outline-none {
+  outline: none;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.border-none {
+  border: none;
+}
+.rounded-12 {
+  border-radius: 12px;
+}
+
+.min-w-100 {
+  min-width: 100px;
+}
+.w-200 {
+  min-width: 200px;
+}
+
+.max-w-250 {
+  max-width: 250px;
+}
+.max-w-550 {
+  max-width: 250px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.h-full {
+  height: 100%;
+}
+.w-full {
+  width: 100%;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mx-auto {
+  margin-inline: auto;
+}
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.grid-container {
+  width: 150px;
+
+  line-height: 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px white;
+  margin-top: 20px;
+}
+
+.box {
+  display: inline-block;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  cursor: pointer;
+}
+
+.off {
+  background-color: lightgray;
+}
+
+.on {
+  background-color: green;
+}
+
+.box:hover {
+  background: #00ccff;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.bottom-45 {
+  bottom: 45px;
+}
